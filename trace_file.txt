@@ -1,0 +1,16 @@
+Nodes Popped: 11755
+Nodes Expanded: 6617
+Nodes Generated: 18022
+Solution Found at depth 12 with cost of 63
+Nodes Popped: 3879
+Nodes Expanded: 2331
+Nodes Generated: 6222
+Solution Found at depth 12 with cost of 63
+Nodes Popped: 11755
+Nodes Expanded: 6617
+Nodes Generated: 18022
+Solution Found at depth 12 with cost of 63
+Nodes Popped: 3879
+Nodes Expanded: 2331
+Nodes Generated: 6222
+Solution Found at depth 12 with cost of 63
