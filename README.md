@@ -8,23 +8,15 @@ The 8-puzzle is a sliding puzzle that consists of a 3x3 grid with tiles numbered
 
 Key Functions
 
-printAllSteps(path): This function prints each move taken to reach the goal state from the start state. It updates the state array and prints the direction and tile moved.
-
-print_output(popped_nodes, expanded_nodes, generated_nodes, max_size_fringe, depth, path, cost): This function prints the statistics of the search process (e.g., nodes popped, expanded, generated, max fringe size, etc.) and the steps to reach the goal. It optionally writes these details to a trace file.
-
-getDirection(start_pos, end_pos): This function returns the direction of the move (left, right, up, or down) based on the start and end positions.
-
-read_input_file(filename): This function reads a state configuration from a file. The state is represented as a 2D list.
-
-calculateCost(state, move): This function calculates the cost of a move. The cost is the absolute difference between the tile values of the start and end positions.
-
-findPosition(state, element): This function finds the position of a given element (e.g., the blank space) in the state.
-
-ucs(start_state, goal_state): This function implements the Uniform-Cost Search algorithm. It uses a priority queue (min-heap) to explore nodes with the lowest cumulative cost first.
-
-bfs(start_state, goal_state): This function implements the Breadth-First Search algorithm. It uses a queue to explore nodes level by level.
-
-dfs(start_state, goal_state): This function implements the Depth-First Search algorithm. It uses a stack to explore nodes as deep as possible before backtracking.
+- printAllSteps(path): This function prints each move taken to reach the goal state from the start state. It updates the state array and prints the direction and tile moved.
+- print_output(popped_nodes, expanded_nodes, generated_nodes, max_size_fringe, depth, path, cost): This function prints the statistics of the search process (e.g., nodes popped, expanded, generated, max fringe size, etc.) and the steps to reach the goal. It optionally writes these details to a trace file.
+- getDirection(start_pos, end_pos): This function returns the direction of the move (left, right, up, or down) based on the start and end positions.
+- read_input_file(filename): This function reads a state configuration from a file. The state is represented as a 2D list.
+- calculateCost(state, move): This function calculates the cost of a move. The cost is the absolute difference between the tile values of the start and end positions.
+- findPosition(state, element): This function finds the position of a given element (e.g., the blank space) in the state.
+- ucs(start_state, goal_state): This function implements the Uniform-Cost Search algorithm. It uses a priority queue (min-heap) to explore nodes with the lowest cumulative cost first.
+- bfs(start_state, goal_state): This function implements the Breadth-First Search algorithm. It uses a queue to explore nodes level by level.
+- dfs(start_state, goal_state): This function implements the Depth-First Search algorithm. It uses a stack to explore nodes as deep as possible before backtracking.
 
 Main Execution
 
